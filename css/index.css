@@ -1,0 +1,367 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(../img/2.jpg); 
+    background-size: cover;
+}
+
+/* logo */
+.navlogo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom:1px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image:url("../image/home_head.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+.navlogo h1{
+    color:white;
+    font-size:80px;
+}
+/* company logo */
+#cLogo{
+    margin:20px;
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-bottom:0;
+    
+}
+/* profile logo */
+#pLogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+#pLogo:hover{
+    border: 1px solid black;
+}
+.proLogOut a{
+    color:#767676;
+}
+.proLogOut a:hover{
+    color:#252525;
+}
+.proLogOut{
+    margin-right: 30px;
+}
+.proLogOut a{
+    text-decoration: none;;
+}
+/* navigation bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0; 
+    margin-top:0;
+    
+}
+
+.navBar ul {
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navBar ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.navBar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navBar ul{
+    padding:0;
+    margin:0;
+
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:10px;
+    
+}
+
+
+/* comment section */
+.main{
+    background-color: rgb(215, 214, 214);
+    background: transparent;
+    border:1px, solid, rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    width:850px;
+    margin:50px auto;
+    padding:0 0 10px 0;
+    border-radius:20px;
+    box-shadow: black 0 0 5px 0;
+}
+
+/* logo */
+.company-logo img{
+    width:100px;
+    height:100px;
+    margin:20px 0 0 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* headline */
+.company h2{
+    position: relative;
+    text-align: center;
+    top:-60px;
+    margin:-7px;
+    color:white;
+}
+/* line */
+#line{
+    display:block;
+    background-color: black;
+    width:800px;
+    height: 0.1px;
+    margin:auto;
+}
+/* faces */
+.face{
+    padding:10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.face a{
+    color:rgb(180, 180, 180);
+}
+
+.face a:hover{
+    color:rgb(255, 176, 57);
+}
+
+/* keyword */
+.key-box{
+    text-align: center;
+}
+
+.keys{
+    background-color: transparent;
+    backdrop-filter: 50px;;
+
+    display:inline-block;
+    text-align: center;
+    margin:5px;
+    border-radius:30px;
+    padding:0 10px;
+    border:1.5px solid rgb(255, 255, 255);
+}
+.keys:hover{
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+    box-shadow: rgb(95, 95, 95) 0 0 2px;
+}
+
+#box1, #box2, #box3, #box4, #box5{
+    display:none;
+}
+
+.key-box a{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+/* form */
+#form {
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+#name, #comment, #email{
+    width:80%;
+    resize:vertical;
+    border-radius:5px;
+    background: transparent;
+    border: 1px solid rgb(207, 207, 207);
+    outline:none;
+}
+#comment::placeholder{
+    color:rgb(204, 204, 204);
+}
+
+#form input, textarea{
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    
+}
+#name , #mail{
+    font-weight: 600;
+}
+/* button */
+.btn{
+    margin: 0 -550px 0 0;
+}
+#submit{
+    background-color: transparent;
+    color:white;
+    border:1px solid rgb(105, 105, 105);
+    padding:10px 20px;
+    border-radius:30px;
+    margin:10px;
+    opacity: 80%;
+}
+#submit:hover{
+    opacity: 100%;
+    background-color:#22aa44;
+}
+#reset{
+    border:none;
+    background: none;
+    color:#fff;
+    opacity: 70%;
+}
+#reset:hover{
+    opacity:100%;   
+}
+
+/* comment box */
+.box{
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    max-width: 850px;
+    padding:20px;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:15px;
+    color:white;
+}
+.comment-box{
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    max-width: 800px;
+    margin: 20px auto;
+    padding:10px;
+    border-radius:7px;
+    box-shadow: black 0 0 5px;
+}
+
+.name-box p{
+    top:-8px;
+    left:20px
+}
+.name-box #comm_email{
+    font-size:small;
+    margin-left:20px;
+    color:rgb(226, 226, 226);
+}
+.name-box #comm_name{
+    font-weight:550;
+}
+
+/* edit and delete button */
+.logo{
+    font-size: 20px;
+    float:right;
+    margin:-25px 10px -30px -30px;
+    color:black;
+    transition: background-color 0.3s ease;
+}
+/* edit button */
+#edit i{
+    margin-right: 25px;
+    color:black;
+}
+#edit i:hover{
+    color:blue;
+    transform: translateY(-3px);
+}
+/* delete button */
+#delete i{
+    color:black;
+}
+
+#delete i:hover{
+    color:red;
+    transform: translateY(-3px);
+}
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+.log a{
+    margin:0 5px;
+}
+.details ul a:hover{
+    text-decoration: underline;
+}
+.PTE ul a:hover{
+    text-decoration: underline;
+}
+.footer-content1, .footer-content2, .footer-content3 {
+    text-align: center;
+}
+
+.footer-content1 img {
+    width: 80px; 
+}
+
+.footer-content2 ul, .footer-content3 ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-content2 ul a, .footer-content3 ul a {
+    text-decoration: none; 
+}
+.footer-content2 ul li, .footer-content3 ul li {
+    margin-bottom: 10px; 
+}
+
+/* responsiveness */
+@media (max-width:880px) {
+    .popular .items .section{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .trending{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recipeDetails h1{
+        font-size: 25px;;
+    }
+    .recipeDetails{
+        width:80%; 
+        margin:20px 60px;
+        text-align: center;
+    }
+    .navBar ul li {
+        display: block; 
+        margin-right: 20px; 
+        padding:10px 0;
+    }
+    .footer {
+        grid-template-columns: 1fr; 
+    }
+    .main{
+        width: 650px;
+    }
+    .btn{
+        margin: 0 -490px 0 0;
+    }
+    .box{
+        width: 650px;
+    }
+    
+}

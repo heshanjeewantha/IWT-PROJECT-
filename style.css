@@ -1,0 +1,251 @@
+body{
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+.navlogo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom:1px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image:url("image/home_head.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+.navlogo h1{
+    color:white;
+    font-size:80px;
+}
+/* company logo */
+#cLogo{
+    margin:20px;
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-bottom:0;
+    
+}
+/* profile logo */
+#pLogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+#pLogo:hover{
+    border: 1px solid black;
+}
+.proLogOut a{
+    color:#ffffff;
+}
+.proLogOut a:hover{
+    color:#d5d5d5;
+    text-decoration: underline;
+}
+.proLogOut{
+    margin-right: 30px;
+}
+.proLogOut a{
+    text-decoration: none;;
+}
+/* navigation bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0; 
+    margin-top:0;
+    
+}
+
+.navBar ul {
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navBar ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.navBar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navBar ul{
+    padding:0;
+    margin:0;
+
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:10px;
+    
+}
+
+/* recipe */
+.Recipe{
+    background-image: url(image/43060kk.jpg);
+    background-size:cover;
+    box-sizing: border-box;
+    
+}
+.recipeDetails{
+    width:40%;
+    margin:30px 100px;
+    
+}
+.recipeDetails h1{
+    padding-top:50px;
+}
+.recipeDetails p{
+    margin-top:20px;
+}
+.recipeDetails button{
+    margin: 30px 0 50px 0;
+    background-color:black;
+    color:white;
+    padding:10px 25px;
+}
+/* popular section */
+.popular .items .section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+    margin:50px;
+    padding: 20px 0 0 0 ;
+}
+.headline{
+    text-align:center;
+}
+.item1 {
+    background-color:azure;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: black 0 0 3px 0;
+}
+.item1 {
+    text-align: center;
+    padding:10px;
+}
+
+.item1 img {
+    height: 100px;
+}
+.section .item1 .content {
+    margin-top: 10px;
+}
+
+.item1 .itemViewBtn button {
+    margin-top: 10px;
+}
+.itemViewBtn button{
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    padding:5px 10px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.itemViewBtn button:hover{
+    background-color: #45a049;
+}
+.recent{
+   padding:20px 0;
+}
+/* trending recipe */
+.trending{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    margin:50px;
+    grid-gap:3em;
+    
+}
+.trendRecipe h1{
+    text-align:center;
+}
+.card{
+    background-color:azure;
+    border-radius:10px;
+    text-align:center;
+    box-shadow: black 0 0 3px 0;
+}
+.card img{
+    width:100%;
+    height:auto;
+    border-radius: 10px 10px 0 0 ;
+}
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+.log a{
+    margin:0 5px;
+}
+.details ul a:hover{
+    text-decoration: underline;
+}
+.PTE ul a:hover{
+    text-decoration: underline;
+}
+.footer-content1, .footer-content2, .footer-content3 {
+    text-align: center;
+}
+
+.footer-content1 img {
+    width: 80px; 
+}
+
+.footer-content2 ul, .footer-content3 ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-content2 ul a, .footer-content3 ul a {
+    text-decoration: none; 
+}
+.footer-content2 ul li, .footer-content3 ul li {
+    margin-bottom: 10px; 
+}
+
+/* responsiveness */
+@media (max-width:880px) {
+    .popular .items .section{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .trending{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recipeDetails h1{
+        font-size: 25px;;
+    }
+    .recipeDetails{
+        width:80%; 
+        margin:20px 60px;
+        text-align: center;
+    }
+    .navBar ul li {
+        display: block; 
+        margin-right: 20px; 
+        padding:10px 0;
+    }
+    .footer {
+        grid-template-columns: 1fr; 
+    }
+}

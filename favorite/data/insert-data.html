@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Entry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navlogo{
+            background-image:url("../../image/home_head.jpg");
+        }
+        .navlogo h1{
+    color:white;
+    font-size:80px;
+}
+        .container-1 {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"] {
+            background-color: #ffba6c;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #f1a130;
+        }
+    </style>
+
+<link rel="stylesheet" href="h&f.css">
+
+<style>
+    
+</style>
+</head>
+<body>
+    <!-- heder section here -->
+
+    <div class="navMain">
+        <div class="navigation">
+            <div class="navlogo">
+                <img id="cLogo" src="img/logo.png" alt="">
+                <h1>FLAVOR FORGE</h1>
+                <div class="proLogOut">
+                    <img id="pLogo" src="img/profile.png" alt="">
+                    <a href="#">Log out</a>
+                </div>
+            </div>
+            <div class="navBar">
+                <ul>
+                    <li><a href="recipeMnagement/home.html">Home</a></li>
+                    <li><a href="#">Donation</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Add Feedback</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">popular Section</a></li>
+                    <li><a href="#">Trending Recipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- heder end -->
+    <div class="container-1">
+        <h2>Aand data here</h2>
+        <form action="insert.php" method="POST">
+            <label for="title">food name:</label>
+            <input type="text" id="title" name="title">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea>
+            <a href="view_data.php"></a><input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-content1">
+                    <div class="log">
+                        <img src="image/logo.png" alt="">
+                        <h3>Follow</h3>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-content2">
+                    <div class="details">
+                        <ul>
+                            <a href=""><li>Recipe</li></a>
+                            <a href=""><li>About Us</li></a>
+                            <a href=""><li>Donation</li></a>
+                            <a href=""><li>Contact Us</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-content3">
+                    <div class="PTE">
+                        <ul>
+                            <a href=""><li>Privacy and Policy</li></a>
+                            <a href=""><li>Terms of Use</li></a>
+                            <a href=""><li>Editorial Guidelines</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

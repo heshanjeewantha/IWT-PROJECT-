@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+body{
+    background: url("bg1.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.navlogo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom:1px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image:url("p3.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+.navlogo h1{
+    color:white;
+    font-size:80px;
+}
+/* company logo */
+#cLogo{
+    margin:20px;
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-bottom:0;
+    
+}
+/* profile logo */
+#pLogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+#pLogo:hover{
+    border: 1px solid black;
+}
+.proLogOut a{
+    color:#767676;
+}
+.proLogOut a:hover{
+    color:#252525;
+}
+.proLogOut{
+    margin-right: 30px;
+}
+.proLogOut a{
+    text-decoration: none;;
+}
+/* navigation bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0; 
+    margin-top:0;
+    
+}
+
+.navBar ul {
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navBar ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.navBar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navBar ul{
+    padding:0;
+    margin:0;
+
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:10px;
+    
+}
+
+
+
+.add-recipe{
+    position:relative;
+    margin-top: 5%;
+    margin-bottom: 100px;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 0%;
+    transform: translate(-50% -50%);
+    width: 600px;
+    backdrop-filter: blur(3px);
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+
+.add-recipe h1{
+    color: white;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    text-transform:capitalize; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 0%;
+    margin-left: -15%;
+    
+}
+
+.add-recipe p{
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.inputs input{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 80%;
+    border: 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.add-recipe textarea{
+    font-size: 20px;
+    width: 80%;
+    height:300px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.add-recipe img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.add-recipe #filein{
+    display: none;
+}
+
+
+
+.add-recipe button{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 30%;
+    margin-right: 0%;
+    margin-top:50px;
+    padding: 20px 20px;
+    border-style:hidden;
+    border-color:#e3362c;
+    border-radius: 10px;
+}
+
+
+
+.add-recipe button:hover{
+    color:red;
+}
+
+
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+.log a{
+    margin:0 5px;
+}
+.details ul a:hover{
+    text-decoration: underline;
+}
+.PTE ul a:hover{
+    text-decoration: underline;
+}
+.footer-content1, .footer-content2, .footer-content3 {
+    text-align: center;
+}
+
+.footer-content1 img {
+    width: 80px; 
+}
+
+.footer-content2 ul, .footer-content3 ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-content2 ul a, .footer-content3 ul a {
+    text-decoration: none; 
+}
+.footer-content2 ul li, .footer-content3 ul li {
+    margin-bottom: 10px; 
+}

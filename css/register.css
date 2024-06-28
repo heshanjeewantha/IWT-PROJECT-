@@ -1,0 +1,451 @@
+body{
+    background-color: #699053;
+}
+.navlogo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom:1px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image:url("../image/home_head.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+
+.navlogo h1{
+    color:white;
+    font-size:80px;
+}
+/* company logo */
+#cLogo{
+    margin:20px;
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-bottom:0;
+    
+}
+/* profile logo */
+#pLogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+#pLogo:hover{
+    border: 1px solid black;
+}
+.proLogOut a{
+    color:#767676;
+}
+.proLogOut a:hover{
+    color:#252525;
+}
+.proLogOut{
+    margin-right: 30px;
+}
+.proLogOut a{
+    text-decoration: none;;
+}
+/* navigation bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0; 
+    margin-top:0;
+    
+}
+
+.navBar ul {
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navBar ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.navBar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navBar ul{
+    padding:0;
+    margin:0;
+
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:10px;
+    
+}
+
+.footer {
+    
+    
+    width:100%;
+    bottom:0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 0;
+    margin:0;
+    background-color: #f2f2f2; 
+}
+.log a{
+    margin:0 5px;
+}
+.footer-content1, .footer-content2, .footer-content3 {
+    text-align: center;
+}
+
+.footer-content1 img {
+    width: 80px; 
+}
+
+.footer-content2 ul, .footer-content3 ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-content2 ul a, .footer-content3 ul a {
+    text-decoration: none; 
+}
+.footer-content2 ul li, .footer-content3 ul li {
+    margin-bottom: 10px; 
+} 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+body{
+    margin: 0;
+}
+.row {  
+     
+    display: flex;
+    flex-wrap: wrap;
+}
+.smallside {
+    
+    flex: 30%;
+    background-color: #9b9a9a;
+    padding: 20px;
+}
+
+.largeside {   
+     
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.recipeimg {
+    background-color: #f1d5a2;
+    width: 100%;
+    padding: 20px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.myimg{
+    background-image: url(../image/profile.jpg);
+    background-size: cover;
+    background-color: #fae1b3;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+
+}
+
+#p1-delete{
+    background-color: rgb(230, 64, 64);
+    margin:10px;
+    padding: 8px 15px;
+    border-radius: 10px
+
+}
+#p1-edit{
+    background-color: rgb(70, 181, 79);
+    margin:10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+#p1-edit:hover{
+    background-color: rgb(45, 115, 51);
+}
+#p1-delete:hover{
+    background-color: rgb(163, 46, 46);
+}
+.p1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.form-box form.field{
+    display: flex ;
+    margin-bottom: 10px;
+    flex-direction:column ;
+}
+.p1{
+    font-family:"Lucida Console",Monaco,Monospace;
+    text-align:center;
+    margin-bottom: 10px ;
+}
+
+#view_recipe{
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-left:  200px;
+    background-color: rgb(70, 181, 79); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+}
+body{
+    background: #e4e9f7;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 30px;
+    min-height: 90vh;
+}
+.box{
+    background: #fde4bd8e;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    
+}
+.btn{
+    height: 35px;
+    background: rgba(156, 149, 249, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+
+.nav{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+.right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box{
+        margin: 10px 10px;
+    }
+    .bottom{
+        margin-top: 0;
+    }
+}
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+.cancelbtn, .deletebtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtn {
+    background-color: #f44336;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Modal Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and delete button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .deletebtn {
+       width: 100%;
+    } }  
+    .header {
+        padding: 60px;
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: 900;
+        font-stretch: expanded;
+        font-family: 'Aclonica';
+      }

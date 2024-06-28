@@ -1,0 +1,129 @@
+body{
+    background:url("pexels-goumbik-616358.jpg")no-repeat;
+    background-size: cover;
+}
+
+
+span {
+
+    color: red;
+}
+fieldset{
+     /* width:200px;
+     height: auto; 
+    padding:10px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;  */
+align-self: auto;
+    /* background-color: #e6dedee1; */
+    border-radius: 5px;
+    width:auto;
+    height: auto;
+
+    /* width: 200px; */
+    padding-right: 0px; 
+     padding-left: 100px;
+     margin-left:  50px; 
+
+    border: 8px solid #271e1e; 
+    border-radius: 5px; 
+    margin-right: 100px; 
+    box-sizing: border-box; 
+
+    /* display: inline-block;
+    justify-content: center;
+    align-items: center */
+    
+} 
+input[type=text],
+input[type=email],
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+ .name{
+    color: red;
+ }
+ legend{
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+ input[type=text]:focus
+{
+    background-color:rgb(177, 208, 208);
+}
+input[type=email]:focus{
+    background-color:rgb(177, 208, 208);
+}
+textarea:focus{
+    background-color:rgb(177, 208, 208);
+
+}
+button:hover{
+    color: red;
+}
+.view_btn a{
+    text-decoration: none;
+}
+button{
+    height: 35px;
+    background:  rgba(76,68,182,0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:0px 10px;
+    width: 30%;
+    text-decoration: none;
+}
+.upbtn{
+    text-decoration: none;
+    height: 35px;
+    background:  rgba(76,68,182,0.808);
+    
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px 10px;
+    width: 30%;
+    
+
+}
+.delbtn{
+    height: 35px;
+    background:  rgba(76,68,182,0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px 10px;
+    width: 30%;
+    text-decoration: none;
+
+}
+.content input, textarea{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+   
+}

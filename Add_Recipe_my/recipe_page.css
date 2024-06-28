@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background: url("recipe_bg2.jpg") no-repeat;
+    background-size: cover;
+    
+}
+
+.navlogo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom:1px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image:url("p3.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+.navlogo h1{
+    color:white;
+    font-size:80px;
+}
+/* company logo */
+#cLogo{
+    margin:20px;
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-bottom:0;
+    
+}
+
+/* profile logo */
+#pLogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+#pLogo:hover{
+    border: 1px solid black;
+}
+.proLogOut a{
+    color:#767676;
+}
+.proLogOut a:hover{
+    color:#252525;
+}
+.proLogOut{
+    margin-right: 30px;
+}
+.proLogOut a{
+    text-decoration: none;;
+}
+/* navigation bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0; 
+    margin-top:0;
+    
+}
+
+.navBar ul {
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navBar ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.navBar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navBar ul{
+    padding:0;
+    margin:0;
+
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:10px;
+    
+}
+
+.fieldset{
+    backdrop-filter: blur(3px);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 40px;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+
+.detail fieldset {
+    border: none;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+}
+
+.recipe-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.recipe_info {
+    margin-top: 10px;
+    padding-top: 40px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #666;
+}
+
+.recipe_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+p{
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+.log a{
+    margin:0 5px;
+}
+.details ul a:hover{
+    text-decoration: underline;
+}
+.PTE ul a:hover{
+    text-decoration: underline;
+}
+.footer-content1, .footer-content2, .footer-content3 {
+    text-align: center;
+}
+
+.footer-content1 img {
+    width: 80px; 
+}
+
+.footer-content2 ul, .footer-content3 ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-content2 ul a, .footer-content3 ul a {
+    text-decoration: none; 
+}
+.footer-content2 ul li, .footer-content3 ul li {
+    margin-bottom: 10px; 
+}
